@@ -1,6 +1,6 @@
-package d4rsorc.TToO.physical.items.armor.vandour;
+package d4rsorc.TTOO.physical.items.armor.vandour;
 
-import d4rsorc.TToO.system.bases.ArmorBase;
+import d4rsorc.TTOO.system.bases.ArmorBase;
 import net.minecraft.inventory.EntityEquipmentSlot;
 
 public class VandourBoots extends ArmorBase {
