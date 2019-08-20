@@ -1,6 +1,6 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
-import d4rsorc.TToO.system.utils.Reference;
+import d4rsorc.TTOO.system.utils.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 

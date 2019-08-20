@@ -1,4 +1,4 @@
-package d4rsorc.TToO.system.proxy;
+package d4rsorc.TTOO.system.proxy;
 
 public class ServerProxy extends CommonProxy {
 

@@ -1,11 +1,17 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
+<<<<<<< HEAD
 import d4rsorc.TToO.physical.items.armor.vandour.VandourBoots;
 import d4rsorc.TToO.physical.items.armor.vandour.VandourChest;
 import d4rsorc.TToO.physical.items.armor.vandour.VandourHelm;
 import d4rsorc.TToO.physical.items.armor.vandour.VandourLeggings;
 import d4rsorc.TToO.system.bases.ArmorBase;
 import d4rsorc.TToO.system.utils.Reference;
+=======
+import d4rsorc.TTOO.physical.items.armor.vandour.VandourHelm;
+import d4rsorc.TTOO.system.bases.ArmorBase;
+import d4rsorc.TTOO.system.utils.Reference;
+>>>>>>> 99f81fe6dee36b99e94dba1690125ee7acc34cef
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

@@ -1,4 +1,4 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
 public class CapabilityRegistration {
 	

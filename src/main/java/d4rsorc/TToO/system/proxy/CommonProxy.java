@@ -1,7 +1,7 @@
-package d4rsorc.TToO.system.proxy;
+package d4rsorc.TTOO.system.proxy;
 
-import d4rsorc.TToO.system.init.CapabilityRegistration;
-import d4rsorc.TToO.system.init.TileEntityRegistration;
+import d4rsorc.TTOO.system.init.CapabilityRegistration;
+import d4rsorc.TTOO.system.init.TileEntityRegistration;
 import net.minecraftforge.fml.common.event.FMLStateEvent;
 
 public class CommonProxy {

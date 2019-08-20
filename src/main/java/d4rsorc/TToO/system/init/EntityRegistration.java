@@ -1,9 +1,9 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
 import javax.annotation.Nonnull;
 
-import d4rsorc.TToO.TToO;
-import d4rsorc.TToO.system.utils.Reference;
+import d4rsorc.TTOO.TTOO;
+import d4rsorc.TTOO.system.utils.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
@@ -36,7 +36,7 @@ public class EntityRegistration {
 	}
 	
 	public static void registerEntity(String name, Class<? extends Entity> entity, int id, int range, int color1, int color2) {
-		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID,name), entity, name, id, TToO.instance, range, 1, true, color1, color2);
+		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID,name), entity, name, id, TTOO.instance, range, 1, true, color1, color2);
 	}
 	
 }
