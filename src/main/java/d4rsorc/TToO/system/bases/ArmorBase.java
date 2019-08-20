@@ -1,4 +1,4 @@
-package d4rsorc.TToO.system.bases;
+package d4rsorc.TTOO.system.bases;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;

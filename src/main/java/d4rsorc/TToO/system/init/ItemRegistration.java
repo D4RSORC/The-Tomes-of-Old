@@ -1,8 +1,8 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
-import d4rsorc.TToO.physical.items.armor.vandour.VandourHelm;
-import d4rsorc.TToO.system.bases.ArmorBase;
-import d4rsorc.TToO.system.utils.Reference;
+import d4rsorc.TTOO.physical.items.armor.vandour.VandourHelm;
+import d4rsorc.TTOO.system.bases.ArmorBase;
+import d4rsorc.TTOO.system.utils.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

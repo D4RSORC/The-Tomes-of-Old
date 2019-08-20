@@ -1,7 +1,7 @@
-package d4rsorc.TToO.system.init;
+package d4rsorc.TTOO.system.init;
 
 
-import d4rsorc.TToO.system.utils.Reference;
+import d4rsorc.TTOO.system.utils.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
