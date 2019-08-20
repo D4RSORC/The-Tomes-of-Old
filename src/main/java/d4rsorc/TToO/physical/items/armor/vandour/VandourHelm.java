@@ -8,7 +8,7 @@ public class VandourHelm extends ArmorBase {
 	public static final String NAME = "vandour_helm";
 	
 	public VandourHelm() {
-		super(NAME, 300, 4, 1, EntityEquipmentSlot.HEAD);
+		super(NAME, 15, 3, 1.0f, EntityEquipmentSlot.HEAD);
 	}
 
 

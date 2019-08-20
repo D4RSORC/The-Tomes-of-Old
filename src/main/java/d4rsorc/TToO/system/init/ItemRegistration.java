@@ -1,6 +1,9 @@
 package d4rsorc.TToO.system.init;
 
+import d4rsorc.TToO.physical.items.armor.vandour.VandourBoots;
+import d4rsorc.TToO.physical.items.armor.vandour.VandourChest;
 import d4rsorc.TToO.physical.items.armor.vandour.VandourHelm;
+import d4rsorc.TToO.physical.items.armor.vandour.VandourLeggings;
 import d4rsorc.TToO.system.bases.ArmorBase;
 import d4rsorc.TToO.system.utils.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -22,6 +25,9 @@ public class ItemRegistration {
 	//Step one create object holder
 	//public static final ItemBase item = null;
 	public static final ArmorBase vandour_helm = null;
+	public static final ArmorBase vandour_chest = null;
+	public static final ArmorBase vandour_leggings = null;
+	public static final ArmorBase vandour_boots = null;
 
 	
 	@SubscribeEvent
@@ -31,6 +37,9 @@ public class ItemRegistration {
 		//step two register item
 		//registry.register(new Item());
 		registry.register(new VandourHelm());
+		registry.register(new VandourChest());
+		registry.register(new VandourBoots());
+		registry.register(new VandourLeggings());
 	}
 
 	@SubscribeEvent
@@ -40,8 +49,10 @@ public class ItemRegistration {
 		//step three register model
 		//registerModel(item);
 		registerModel(vandour_helm);
-
-		
+		registerModel(vandour_chest);
+		registerModel(vandour_leggings);
+		registerModel(vandour_boots);
+		vandour_helm.getCreatorModId(itemStack);
 	}
 	
 	public static void registerModel(Item item) {
