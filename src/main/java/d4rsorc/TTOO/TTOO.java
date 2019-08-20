@@ -16,7 +16,7 @@ public class TTOO
 	@Instance
 	public static TTOO instance;
 	
-	@SidedProxy(clientSide = "d4rsorc.TToO.system.proxy.ClientProxy", serverSide = "d4rsorc.TToO.system.proxy.ServerProxy")
+	@SidedProxy(clientSide = "d4rsorc.TTOO.system.proxy.ClientProxy", serverSide = "d4rsorc.TTOO.system.proxy.ServerProxy")
 	public static CommonProxy proxy;
 
     //private static Logger logger;
