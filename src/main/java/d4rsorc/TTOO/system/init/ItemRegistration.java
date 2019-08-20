@@ -1,11 +1,13 @@
 package d4rsorc.TTOO.system.init;
 
 
+import d4rsorc.TTOO.physical.items.MagicWand;
 import d4rsorc.TTOO.physical.items.armor.vandour.VandourBoots;
 import d4rsorc.TTOO.physical.items.armor.vandour.VandourChest;
 import d4rsorc.TTOO.physical.items.armor.vandour.VandourHelm;
 import d4rsorc.TTOO.physical.items.armor.vandour.VandourLeggings;
 import d4rsorc.TTOO.system.bases.ArmorBase;
+import d4rsorc.TTOO.system.bases.ItemBase;
 import d4rsorc.TTOO.system.utils.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -29,6 +31,8 @@ public class ItemRegistration {
 	public static final ArmorBase vandour_chest = null;
 	public static final ArmorBase vandour_leggings = null;
 	public static final ArmorBase vandour_boots = null;
+	
+	public static final ItemBase magic_wand = null;
 
 	
 	@SubscribeEvent
@@ -41,6 +45,8 @@ public class ItemRegistration {
 		registry.register(new VandourChest());
 		registry.register(new VandourBoots());
 		registry.register(new VandourLeggings());
+		
+		registry.register(new MagicWand());
 	}
 
 	@SubscribeEvent
@@ -53,6 +59,8 @@ public class ItemRegistration {
 		registerModel(vandour_chest);
 		registerModel(vandour_leggings);
 		registerModel(vandour_boots);
+		
+		registerModel(magic_wand);
 	}
 	
 	public static void registerModel(Item item) {
