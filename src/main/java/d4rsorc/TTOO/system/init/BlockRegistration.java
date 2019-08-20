@@ -38,7 +38,6 @@ public class BlockRegistration {
 		final IForgeRegistry<Item> registry = event.getRegistry();
 		//step three register itemblock by passing in the object holder
 		//registerItem(test,registry);
-		
 	}
 	
 	@SubscribeEvent
