@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package d4rsorc.TToO;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -7,8 +7,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
-public class ExampleMod
+@Mod(modid = TToO.MODID, name = TToO.NAME, version = TToO.VERSION)
+public class TToO
 {
     public static final String MODID = "TToO";
     public static final String NAME = "The Tomes of Old";
