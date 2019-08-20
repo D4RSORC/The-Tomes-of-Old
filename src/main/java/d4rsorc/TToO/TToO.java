@@ -20,10 +20,6 @@ public class TToO
 	public static CommonProxy proxy;
 
     //private static Logger logger;
-    
-
-	
-
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

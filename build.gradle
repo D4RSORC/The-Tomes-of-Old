@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = '0.1'
-group = 'com.d4rsorc.TToO' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'TToO'
+group = 'd4rsorc.TToO' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'ttoo'
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
