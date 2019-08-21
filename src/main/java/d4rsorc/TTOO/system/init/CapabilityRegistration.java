@@ -6,6 +6,7 @@ import d4rsorc.TTOO.ethereal.capabilities.mana.ManaProvider;
 import d4rsorc.TTOO.ethereal.capabilities.mana.ManaStorage;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -23,6 +24,15 @@ public class CapabilityRegistration {
 	public static void onAttachCapabilities(AttachCapabilitiesEvent<Entity> event)
 	{
 		if(event.getObject() instanceof EntityPlayer)
+		{
+			event.addCapability(IMana.RL, new ManaProvider());
+		}
+	}
+	
+	@SubscribeEvent
+	public static void onAttachCapabilitiesWorld(AttachCapabilitiesEvent<World> event)
+	{
+		if(event.getObject() instanceof World)
 		{
 			event.addCapability(IMana.RL, new ManaProvider());
 		}

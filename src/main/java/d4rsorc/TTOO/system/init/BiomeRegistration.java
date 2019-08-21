@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 import net.minecraftforge.registries.IForgeRegistry;
 
 @Mod.EventBusSubscriber
+@ObjectHolder(Reference.MODID)
 public class BiomeRegistration {
 	
 	 public final static BiomeTest test = null;

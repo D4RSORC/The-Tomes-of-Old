@@ -12,7 +12,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
 @Mod.EventBusSubscriber
+@ObjectHolder(Reference.MODID)
 public class DimensionRegistration {
+	
 	public static final String DIM_NAME = "test";
     public static final int TEST_DIM_ID = findFreeDimensionID();
     public static final DimensionType TEST_DIM_TYPE = DimensionType.register(DIM_NAME, "_"+DIM_NAME, TEST_DIM_ID, WorldProviderTest.class, true);
